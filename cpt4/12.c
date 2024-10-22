@@ -5,6 +5,9 @@ int main(){
     float x1 = 2, y1 = 2, x2 = -2, y2 = 2, x3 = -2, y3 = -2, x4 = 2, y4 = -2;
     float r = 1;
     float h = 0;
+
+    printf("Enter (x, y) respectively: ");
+    scanf("%f %f", &x, &y);
     
     if((x - x1) * (x - x1) + (y - y1) * (y - y1) <= r * r){
         h = 10;
