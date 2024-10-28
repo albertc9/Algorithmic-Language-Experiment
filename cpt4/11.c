@@ -1,4 +1,3 @@
-// read and rank 4 numbers
 #include <stdio.h>
 
 void sort(int *a, int *b, int *c, int *d) {
