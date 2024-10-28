@@ -14,5 +14,5 @@ int main(){
     }else{
         h = 0;
 }
-printf("h = %.2f\n m", h);
+printf("h = %.2f m", h);
 }
