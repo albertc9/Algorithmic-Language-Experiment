@@ -18,7 +18,6 @@ int main() {
     printf("Enter second string: ");
     fgets(s2, sizeof(s2), stdin);
 
-    // 移除 fgets 读取的换行符
     s1[strcspn(s1, "\n")] = 0;
     s2[strcspn(s2, "\n")] = 0;
 
