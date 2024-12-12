@@ -136,6 +136,8 @@ Line 3: 2 upper case, 8 lower case, 0 digits, 2 spaces, 4 others
 
 14.  
 
+由于gets函数在读取字符串时没有边界检查，可能导致缓冲区溢出，所以在C11中被废除。于是在这段代码中改用为fgets。
+
 ```c
 #include <stdio.h>
 #include <string.h>
